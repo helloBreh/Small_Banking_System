@@ -9,7 +9,6 @@ app.UseHttpsRedirection();
 app.MapControllers();
 
 app.MapGet("/health", () =>
-    Results.Ok(new { status = "running" }));
+    Results.Ok(new { status = "running" }));        
 
 app.Run();
-
