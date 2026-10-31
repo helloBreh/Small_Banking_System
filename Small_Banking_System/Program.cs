@@ -12,3 +12,4 @@ app.MapGet("/health", () =>
     Results.Ok(new { status = "running" }));
 
 app.Run();
+
